@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Samia Khan",
+        "age": 19,
+        "gender": "female",
+        "height": 165,
+        "weight": 85,
+        "activityLevel": "beginner",
+        "primaryGoal": "Muscle Gain",
+        "waistSize": 85,
+        "hipSize": "96",
+        "neckSize": 38,
+        "strengthLevel": "Fir",
+        "weekExercises": ["active","inactive","inactive","inactive","inactive","active","inactive"],
+        "todaysExercise": "chest",
+        "history": [
+            {"date": "2023-10-02", "exerciseName": "Push Ups", "muscleGroup": "chest", "sets": 3, "reps": 8, "completedReps": 6},
+            {"date": "2023-10-01", "exerciseName": "Squats", "muscleGroup": "legs", "sets": 3, "reps": 10, "completedReps": 8}
+        ]
+    },
+    {
+        "name": "John Smith",
+        "age": 33,
+        "gender": "male",
+        "height": 175,
+        "weight": 75,
+        "activityLevel": "intermediate",
+        "primaryGoal": "Fat Loss",
+        "waistSize": 85,
+        "neckSize": 38,
+        "strengthLevel": "Sec",
+        "weekExercises": ["active","active","active","active","inactive","active","inactive"],
+        "todaysExercise": "arms",
+        "history": [
+            {"date": "2023-10-03", "exerciseName": "Bicep Curls", "muscleGroup": "arms", "sets": 4, "reps": 12, "completedReps": 10},
+            {"date": "2023-10-01", "exerciseName": "Deadlifts", "muscleGroup": "back", "sets": 4, "reps": 8, "completedReps": 8}
+        ]
+    },
+    {
+        "name": "Emma Johnson",
+        "age": 28,
+        "gender": "female",
+        "height": 170,
+        "weight": 65,
+        "activityLevel": "advanced",
+        "primaryGoal": "Muscle Gain",
+        "waistSize": 72,
+        "hipSize": "94",
+        "neckSize": 34,
+        "strengthLevel": "Thr",
+        "weekExercises": ["active","active","active","active","active","active","inactive"],
+        "todaysExercise": "legs",
+        "history": [
+            {"date": "2023-10-04", "exerciseName": "Squats", "muscleGroup": "legs", "sets": 5, "reps": 15, "completedReps": 15},
+            {"date": "2023-10-02", "exerciseName": "Bench Press", "muscleGroup": "chest", "sets": 5, "reps": 12, "completedReps": 12}
+        ]
+    },
+    {
+        "name": "Carlos Rodriguez",
+        "age": 42,
+        "gender": "male",
+        "height": 182,
+        "weight": 90,
+        "activityLevel": "intermediate",
+        "primaryGoal": "Fat Loss",
+        "waistSize": 95,
+        "neckSize": 42,
+        "strengthLevel": "Fou",
+        "weekExercises": ["active","inactive","active","inactive","active","inactive","active"],
+        "todaysExercise": "back",
+        "history": [
+            {"date": "2023-10-03", "exerciseName": "Pull Ups", "muscleGroup": "back", "sets": 4, "reps": 8, "completedReps": 6},
+            {"date": "2023-09-30", "exerciseName": "Lunges", "muscleGroup": "legs", "sets": 3, "reps": 12, "completedReps": 10}
+        ]
+    },
+    {
+        "name": "Aisha Patel",
+        "age": 25,
+        "gender": "female",
+        "height": 160,
+        "weight": 55,
+        "activityLevel": "beginner",
+        "primaryGoal": "Muscle Gain",
+        "waistSize": 68,
+        "hipSize": "88",
+        "neckSize": 32,
+        "strengthLevel": "Fir",
+        "weekExercises": ["inactive","active","inactive","active","inactive","active","inactive"],
+        "todaysExercise": "shoulders",
+        "history": [
+            {"date": "2023-10-05", "exerciseName": "Dumbbell Press", "muscleGroup": "shoulders", "sets": 3, "reps": 10, "completedReps": 8}
+        ]
+    },
+    {
+        "name": "Michael Chen",
+        "age": 37,
+        "gender": "male",
+        "height": 178,
+        "weight": 80,
+        "activityLevel": "advanced",
+        "primaryGoal": "Muscle Gain",
+        "waistSize": 82,
+        "neckSize": 40,
+        "strengthLevel": "Fiv",
+        "weekExercises": ["active","active","active","active","active","active","active"],
+        "todaysExercise": "core",
+        "history": [
+            {"date": "2023-10-04", "exerciseName": "Plank", "muscleGroup": "core", "sets": 5, "reps": 90, "completedReps": 90},
+            {"date": "2023-10-02", "exerciseName": "Deadlifts", "muscleGroup": "back", "sets": 5, "reps": 10, "completedReps": 10}
+        ]
+    },
+    {
+        "name": "Olivia Wilson",
+        "age": 31,
+        "gender": "female",
+        "height": 168,
+        "weight": 70,
+        "activityLevel": "intermediate",
+        "primaryGoal": "Fat Loss",
+        "waistSize": 78,
+        "hipSize": "98",
+        "neckSize": 35,
+        "strengthLevel": "Sec",
+        "weekExercises": ["active","inactive","active","inactive","active","inactive","inactive"],
+        "todaysExercise": "legs",
+        "history": [
+            {"date": "2023-10-03", "exerciseName": "Squats", "muscleGroup": "legs", "sets": 4, "reps": 12, "completedReps": 10},
+            {"date": "2023-09-29", "exerciseName": "Lunges", "muscleGroup": "legs", "sets": 3, "reps": 10, "completedReps": 8}
+        ]
+    },
+    {
+        "name": "David Kim",
+        "age": 45,
+        "gender": "male",
+        "height": 180,
+        "weight": 95,
+        "activityLevel": "beginner",
+        "primaryGoal": "Fat Loss",
+        "waistSize": 100,
+        "neckSize": 45,
+        "strengthLevel": "Fir",
+        "weekExercises": ["inactive","active","inactive","active","inactive","inactive","inactive"],
+        "todaysExercise": "arms",
+        "history": [
+            {"date": "2023-10-01", "exerciseName": "Bicep Curls", "muscleGroup": "arms", "sets": 3, "reps": 8, "completedReps": 6}
+        ]
+    },
+    {
+        "name": "Sophia Martinez",
+        "age": 22,
+        "gender": "female",
+        "height": 163,
+        "weight": 58,
+        "activityLevel": "intermediate",
+        "primaryGoal": "Muscle Gain",
+        "waistSize": 70,
+        "hipSize": "92",
+        "neckSize": 33,
+        "strengthLevel": "Thr",
+        "weekExercises": ["active","active","inactive","active","inactive","active","inactive"],
+        "todaysExercise": "back",
+        "history": [
+            {"date": "2023-10-04", "exerciseName": "Lat Pulldown", "muscleGroup": "back", "sets": 4, "reps": 12, "completedReps": 12},
+            {"date": "2023-10-02", "exerciseName": "Rows", "muscleGroup": "back", "sets": 4, "reps": 10, "completedReps": 10}
+        ]
+    },
+    {
+        "name": "James Wilson",
+        "age": 50,
+        "gender": "male",
+        "height": 185,
+        "weight": 88,
+        "activityLevel": "intermediate",
+        "primaryGoal": "Maintenance",
+        "waistSize": 90,
+        "neckSize": 41,
+        "strengthLevel": "Fou",
+        "weekExercises": ["active","inactive","active","inactive","active","inactive","inactive"],
+        "todaysExercise": "chest",
+        "history": [
+            {"date": "2023-10-03", "exerciseName": "Bench Press", "muscleGroup": "chest", "sets": 4, "reps": 10, "completedReps": 8},
+            {"date": "2023-09-28", "exerciseName": "Push Ups", "muscleGroup": "chest", "sets": 3, "reps": 15, "completedReps": 12}
+        ]
+    }
+]
