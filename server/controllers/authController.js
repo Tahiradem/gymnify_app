@@ -2,30 +2,34 @@ const Gymers = require('../models/Gym');
 
 exports.loginUser = async (req, res) => {
   try {
-    const { email, password } = req.body;
+    const { email } = req.body;
+    console.log('Login attempt for email:', email);
 
     const gym = await Gymers.findOne({
       'users': {
         $elemMatch: {
           email: email,
-          password: password
         }
       }
     });
 
+    console.log('Found gym:', gym?._id); // Add this
+
     if (!gym) {
+      console.log('No gym found for email:', email);
       return res.status(401).json({ 
         success: false, 
         message: 'Invalid email or password' 
       });
     }
 
-    const user = gym.users.find(u => u.email === email && u.password === password);
+    const user = gym.users.find(u => u.email === email );
+     console.log('Found user:', user?._id);
 
     res.status(200).json({
       success: true,
       message: 'Login successful',
-      user: user,
+      userData: user,
       gymId: gym._id,
       gymName: gym.name // Include the gym name in the response
     });
