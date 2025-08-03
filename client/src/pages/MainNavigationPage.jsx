@@ -16,6 +16,15 @@ const MainNavigationPage = () => {
   const urlParams = new URLSearchParams(window.location.search);
   const email = urlParams.get('email')
 
+  
+useEffect(() => {
+  // Only load eruda on mobile or for debugging
+  const script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/eruda';
+  script.onload = () => window.eruda && window.eruda.init();
+  document.body.appendChild(script);
+}, []);
+  
   useEffect(() => {
     const fetchUserData = async () => {
       // sessionStorage.setItem('gymnify_user_email', email);
