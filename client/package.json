@@ -7,11 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite --host",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite preview --host",    
+    "lint": "eslint .",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
