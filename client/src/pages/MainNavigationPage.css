@@ -1,0 +1,59 @@
+.main-container_navigation {
+    background: #f7f4f8;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    padding: 10px 20px 70px 20px; /* Increased bottom padding to 70px */
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Optional: Add responsive padding for smaller screens */
+@media (max-width: 480px) {
+    .main-container_navigation {
+        padding: 10px 15px 5px 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-container_navigation {
+        padding: 10px 10px 5px 10px;
+    }
+}
+.gymHouseName_navigator_page{
+    margin: 0;
+    color: #333;
+    font-size: 39px;
+}
+.welcome_text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #333;
+
+}
+.qr-code-container-entrance{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qr-code-image-entrance{
+    /* border: 1px solid #ccc; */
+    box-shadow: 5px 5px 15px 0 #eee, -5px -5px 15px 0 #eee;
+    border-radius: 7px;
+}
+.qr-code-instructions-entrance{
+    text-align: center;
+}
+.start-gym-button-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

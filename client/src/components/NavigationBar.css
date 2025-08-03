@@ -1,0 +1,60 @@
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100000001;
+    border-radius: 20px 20px 0 0;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #6a6a6a;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+  color: #9d80c1;
+}
+
+.nav-icon {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.nav-text {
+  font-size: 12px;
+}
+
+/* Active state for the current route */
+.nav-item.active {
+  color: #9d80c1;
+}
+
+.nav-item.active .nav-icon,
+.nav-item.active .nav-text {
+  color: #1a73e8;
+}
+.FaDumbbell{
+  rotate: 30deg;
+}
+.nav-item.active {
+  color: #9d80c1; /* Or your preferred active color */
+}
+
+.nav-item.active .nav-icon,
+.nav-item.active .nav-text {
+  color: #9d80c1; /* Match your hover color */
+}

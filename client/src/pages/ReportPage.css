@@ -1,0 +1,241 @@
+.report_page{
+    width: 100%;
+    height: auto;
+    background: #f7f4f8;
+    padding-bottom: 100px;
+}
+.report_text_1{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #333;
+}
+.todaysTotal_text{
+    font-size: 19px;
+    font-weight: 700;
+    color: #333;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.time_calore_activity_report_daily{
+    display: flex;
+    width: 100%;
+    /* background: #fff; */
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-top: 20px;
+    /* box-shadow: 3px 3px 10px -5px #3333332c; */
+}
+.time_calore_activity_report_daily .report_of_day{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0;
+}
+.time_spend_report{
+    margin-left: 20px;
+}
+.activity_done_report{
+    margin-right: 30px;
+}
+.time_calore_activity_report_daily .report_of_day p{
+}
+.report_daily_data_name_text{
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+.report_daily_data_real_text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #7d51aa;
+}
+.weekly_calorie_burned_box{
+    width: calc(100% - 40px);
+    height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px -5px #3333332c;
+}
+.weekly_calorie_burned_box_text{
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.calorie_burned_weekly_chart{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.your_attendance_text{
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.monthly_attendance_report_box{
+    width: calc(100% - 00px);
+    height: auto;
+    border-radius: 15px;
+    margin-top: 0px;
+    position: relative;
+    background: #fff;
+    box-shadow: 3px 3px 10px -5px #3333332c;
+}
+.react-datepicker {
+  border: none;
+  box-shadow: none;
+  background: transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99.5%;
+  margin: 0 auto !important;
+  border: none !important;
+}
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  margin-bottom: 10px;
+  border: none !important;
+}
+.calendar-month-year{
+  border: none !important;
+  display: flex !important;
+  gap: 5px !important;
+  font-size: 18px;
+}
+.attendance-calendar{
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.attendance-calendar *:not(.react-datepicker__day) {
+  border: none !important;
+}
+.attendance-calendar *:not(.react-datepicker__day * ,.attended-day) {
+  background: white !important;
+}
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.nav-button:hover {
+  background-color: #f5f5f5;
+}
+
+.react-datepicker__day-names {
+  display: flex;
+  justify-content: space-between;
+  background:white !important;
+  border: none !important;
+}
+.react-datepicker__month-container {
+  width: 90% !important;
+  float: none !important;
+  border: none !important;
+  margin:  10px auto !important;
+}
+.react-datepicker__day-name {
+  width: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #666;
+  margin-top: 10px !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+}
+
+.react-datepicker__month {
+  margin: 0;
+}
+
+.react-datepicker__week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-datepicker__day {
+  width: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin: 3px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  padding: 7px;
+  color: #333 !important;
+  border: 1px solid #3333335c;
+}
+.react-datepicker__day--outside-month {
+  color: #ccc;
+}
+.attended-day {
+  background-color: #333;
+  color: white !important;
+}
+.missed-day {
+  background-color: #ffebee;
+  color: #3333 !important;
+}
+.react-datepicker__day--today {
+  font-weight: bold;
+  border: 1px solid #7d51aa;
+}
+.total_gym_seprnd_from_start_to_end{
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.frequently_trained_bodys_text{
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 20px;
+  display: none;
+}
+.frequently_tranined_body_box{
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  height: 300px;
+  box-shadow: 3px 3px 10px -5px #3333332c;
+  display: none;
+}
+.weight_change_record_box{
+  width: 100%;
+  /* background: #fff; */
+  margin-top: 0px;
+  /* border-radius: 15px; */
+  height: auto;
+  box-shadow: 3px 3px 10px -5px #3333332c;
+  padding: 0 0 20px 0;
+}
+.weight_change_record_text{
+  margin-left: 20px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.weight-change-chart{
+  width: 85%;
+  margin: 0 auto;
+}

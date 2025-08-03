@@ -1,0 +1,37 @@
+.all_exercise_boxes_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    overflow-y: auto;
+    width: 95%;
+    margin: 10px auto;
+    padding: 0 0 80px 0;
+}
+
+.Each_Exercise_box {
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px 0;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.Exercise_img {
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #f0e5ff;
+}
+
+.Exercise_text {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}

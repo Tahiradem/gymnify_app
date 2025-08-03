@@ -1,0 +1,24 @@
+#root{
+  width: 100%;
+  background: #fff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 430px; /* Changed from 400px to 440px as requested */
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+  align-items: center;
+}
+body{
+  background: #202020;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar{
+  width: 0;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Exercise Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Personalized Workout Plan</h1>
+            <p id="current-day"></p>
+        </header>
+
+        <div class="user-profile">
+            <h2>Your Profile</h2>
+            <div class="profile-info">
+                <p><strong>Level:</strong> <span id="user-level"></span></p>
+                <p><strong>Primary Goal:</strong> <span id="user-goal"></span></p>
+                <p><strong>Available Time:</strong> <span id="workout-time"></span> minutes</p>
+            </div>
+        </div>
+
+        <div class="workout-plan">
+            <h2>Today's Workout</h2>
+            <div id="target-body-parts"></div>
+            <div id="exercises-container"></div>
+            <div class="workout-summary">
+                <p><strong>Total Estimated Time:</strong> <span id="total-time"></span> minutes</p>
+                <p><strong>Estimated Calories Burned:</strong> <span id="total-calories"></span> kcal</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="regenerate-btn">Regenerate Workout</button>
+            <button id="save-btn">Save Workout</button>
+        </div>
+    </div>
+
+    <script src="js/exerciseData.js"></script>
+    <script src="js/userData.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

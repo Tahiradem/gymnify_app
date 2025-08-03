@@ -1,0 +1,41 @@
+.auth-input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd42;
+  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;
+  transition: border-color 0.3s, background-color 0.3s;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Normal placeholder */
+.auth-input::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* Focus state */
+.auth-input:focus {
+  border-color: #a596ed;
+  outline: none;
+  background-color: transparent !important;
+}
+
+/* Fix for autofill background color */
+.auth-input:-webkit-autofill,
+.auth-input:-webkit-autofill:hover, 
+.auth-input:-webkit-autofill:focus, 
+.auth-input:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Fix for autofill text color */
+input:-webkit-autofill::first-line {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #fff !important;
+}

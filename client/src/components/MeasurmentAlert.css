@@ -1,0 +1,37 @@
+.MeasurmentAlert_container{
+    width: 300px;
+    background: #333;
+    box-shadow: 5px 5px 15px -3px #3333333a;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    animation: 2s 3s alert_anim forwards;
+}
+@keyframes alert_anim {
+    0%{
+        top: 10px;
+        right: 10px;
+    }
+    100%{
+        top: 10px;
+        right: -1000px;
+    }
+}
+a{
+    text-decoration: none;
+}
+.alert_1{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+.alert_2{
+    text-align: center;
+    margin: 5px 0;
+    color: #9d80c1;
+    text-decoration: underline;
+    width: 100%;
+}

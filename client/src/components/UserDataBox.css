@@ -1,0 +1,148 @@
+.user_data_main_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 0 100px 0;
+}
+.user_data_each_section{
+    width: 96%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0 #33333318;
+    margin-top:15px;
+}
+.user_data_each_section p{
+    margin-left: 20px;
+    color: #333;
+}
+.data_name_text{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.real_data_value_text{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom:15px;
+    font-weight: 600;
+}
+.edit_icon_for_profile{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #555;
+    font-size: 18px;
+}
+.exercise_week{
+    font-size: 20px;
+    font-weight: 400;
+}
+.membership_plan_text_data{
+    font-size: 20px;
+    color: #333;
+}
+.exercise-value{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.exercise-value span{
+    font-weight: 100;
+
+}
+/* Add these styles to your existing CSS */
+
+.medical-conditions-list {
+  margin: 0;
+  padding: 20px;
+}
+.medical-conditions-list p {
+  margin: 0.2rem 0;
+}
+
+.weekly-exercise-container {
+  width: 100%;
+}
+
+.weekly-exercise-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.weekly-exercise-table td {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.exercise-day {
+  font-weight: bold;
+  width: 30%;
+}
+
+.exercise-value {
+  width: 70%;
+}
+.membership-details{
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+    margin-top: 7px;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+.membership-details p {
+  margin: 0.2rem 0;
+}
+
+/* Modal specific styles */
+.weekly-exercise-modal {
+  max-width: 500px;
+}
+
+.exercise-inputs {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.exercise-input-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.exercise-input-row label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.exercise-input-row input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.membership-modal {
+  max-width: 400px;
+}
+
+.input-row {
+  margin-bottom: 1rem;
+}
+
+.input-row label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.input-row input,
+.input-row select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
