@@ -12,7 +12,7 @@ import "./App.css"
 
 function App() {
   return (
-    <Router basename="/Gimnify-App">
+    <Router>
       <Routes>
         {/* <Route path="/" element={<LoginPage />} /> */}
         <Route path="/" element={<MainNavigationPage />} />
